@@ -1,0 +1,106 @@
+object NewCalForm: TNewCalForm
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = #1050#1072#1083#1080#1073#1088#1086#1074#1082#1072
+  ClientHeight = 192
+  ClientWidth = 186
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnShortCut = FormShortCut
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RzGroupBox2: TRzGroupBox
+    Left = 8
+    Top = 8
+    Width = 168
+    Height = 177
+    TabOrder = 0
+    object RzStatusPane1: TRzStatusPane
+      Left = 8
+      Top = 13
+      Width = 153
+      Height = 22
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      Alignment = taCenter
+    end
+    object RzStatusPane2: TRzStatusPane
+      Left = 8
+      Top = 73
+      Width = 153
+      Height = 26
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      Alignment = taCenter
+    end
+    object RzStatusPane3: TRzStatusPane
+      Left = 8
+      Top = 41
+      Width = 153
+      Height = 26
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      Alignment = taCenter
+    end
+    object RzLine1: TRzLine
+      Left = 0
+      Top = 129
+      Width = 169
+      Height = 20
+    end
+    object RzBitBtn2: TRzBitBtn
+      Left = 72
+      Top = 105
+      Width = 25
+      HotTrack = True
+      TabOrder = 0
+      ThemeAware = False
+      OnClick = RzBitBtn2Click
+      ImageIndex = 50
+      Images = MainForm.MenuImageList
+      Margin = 0
+      Spacing = 0
+    end
+    object RzBitBtn1: TRzBitBtn
+      Left = 40
+      Top = 145
+      Width = 89
+      Caption = #1055#1088#1077#1088#1074#1072#1090#1100
+      HotTrack = True
+      TabOrder = 1
+      ThemeAware = False
+      OnClick = RzBitBtn1Click
+      ImageIndex = 2
+      Images = MainForm.ButtonImageList
+      Margin = 0
+      Spacing = 0
+    end
+  end
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+    Left = 24
+    Top = 24
+  end
+end

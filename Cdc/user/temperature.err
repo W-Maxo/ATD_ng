@@ -1,0 +1,8 @@
+Error[1105] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 70 : symbol 'cs_temp_sensor' has not been defined
+Error[1101] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 70 : lvalue required
+Error[1105] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 71 : symbol 'tris_cs_temp_sensor' has not been defined
+Error[1101] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 71 : lvalue required
+Error[1105] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 97 : symbol 'cs_temp_sensor' has not been defined
+Error[1101] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 97 : lvalue required
+Error[1105] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 100 : symbol 'cs_temp_sensor' has not been defined
+Error[1101] C:\MCHPFSUSB\fw\Cdc\user\temperature.c 100 : lvalue required
